@@ -59,6 +59,15 @@
       }
     },
     {
+      "name": "自动互助",
+      "type": "cron",
+      "time": "1 3 */2 * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/whyour/hundun/master/quanx/shareCode-auto.js"
+      }
+    },
+    {
       "name": "中青极速版（看看赚任务）",
       "type": "cron",
       "time": "30 6 * * *",
