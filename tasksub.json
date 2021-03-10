@@ -5,30 +5,12 @@
   "date": "2021-02-28 19:43:14",
   "list": [
     {
-      "name": "步步宝 ziye",
-      "type": "cron",
-      "time": "0,30 0-23 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/bububao.js"
-      }
-    },
-    {
       "name": "笑谱ziye",
       "type": "cron",
       "time": "*/20 8-23 * * *",
       "job": {
         "type": "runjs",
         "target": "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/iboxpay.js"
-      }
-    },
-    {
-      "name": "QQ阅读ziye",
-      "type": "cron",
-      "time": "*/30 8-23 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/ziye66666/JavaScript/main/Task/QQread.js"
       }
     },
     {
@@ -65,42 +47,6 @@
       "job": {
         "type": "runjs",
         "target": "https://raw.githubusercontent.com/whyour/hundun/master/quanx/shareCode-auto.js"
-      }
-    },
-    {
-      "name": "中青极速版（看看赚任务）",
-      "type": "cron",
-      "time": "30 6 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/ztxtop/x/main/youth_banner.js"
-      }
-    },
-    {
-      "name": "中青自动阅读Sunert",
-      "type": "cron",
-      "time": "6 1-16/3 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/LiuYuanwork/elecV2P/main/Taks-elecV2P/youthread_elecV2.js"
-      }
-    },
-    {
-      "name": "中青极速版（早起打卡）",
-      "type": "cron",
-      "time": "0 5 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js"
-      }
-    },
-    {
-      "name": "中青极速版（每日任务）",
-      "type": "cron",
-      "time": "*/14 0-23 * * *",
-      "job": {
-        "type": "runjs",
-        "target": "https://raw.githubusercontent.com/Sunert/Scripts/master/Task/youth.js"
       }
     },
     {
